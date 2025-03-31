@@ -644,7 +644,7 @@
 		(descr "JST XH series connector, S5B-XH-A (http://www.jst-mfg.com/product/pdf/eng/eXH.pdf), generated with kicad-footprint-generator")
 		(tags "connector JST XH horizontal")
 		(property "Reference" "J1"
-			(at 13.5 3.45 180)
+			(at 13.5 3.45 0)
 			(layer "F.SilkS")
 			(uuid "8fffb032-b31e-4ab5-bf17-8529e71cd549")
 			(effects
@@ -655,7 +655,7 @@
 			)
 		)
 		(property "Value" "PS2"
-			(at 13.5 -0.05 180)
+			(at 13.5 -0.05 0)
 			(layer "F.Fab")
 			(uuid "f7664b4a-17d5-481a-bff2-62699565c260")
 			(effects
@@ -687,6 +687,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC Part" "C163038"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6c2dbb5b-2959-49fb-993a-0491f89a9f6f")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -1187,7 +1200,7 @@
 			(uuid "a9dadb12-e604-4e3d-a0b0-6f273305207a")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 13.5 3.45 180)
+			(at 13.5 3.45 0)
 			(layer "F.Fab")
 			(uuid "3858fb90-0666-4fda-b3d8-91a4cac8b7d2")
 			(effects
@@ -2000,6 +2013,19 @@
 				)
 			)
 		)
+		(property "LCSC Part" "C129776"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a0c71015-ff22-4925-b33d-237fe505dec9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/29e29388-68bc-4a41-89b0-854165d097dd")
 		(sheetname "/")
 		(sheetfile "PS2 Serial adapter.kicad_sch")
@@ -2752,7 +2778,7 @@
 		(descr "9-pin D-Sub connector, solder-cups edge-mounted, socket (female), x-pin-pitch 2.77mm, distance of mounting holes 25mm, see https://disti-assets.s3.amazonaws.com/tonar/files/datasheets/16730.pdf")
 		(tags "9-pin D-Sub connector edge mount solder cup socket x-pin-pitch 2.77mm mounting holes distance 25mm")
 		(property "Reference" "J2"
-			(at 8 0 -0)
+			(at 8 0 0)
 			(layer "F.SilkS")
 			(uuid "10c74f28-6a81-4781-8c43-3e638f4871cb")
 			(effects
@@ -2794,6 +2820,20 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "LCSC Part" "C3105329"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "de43dfe2-8538-4a7c-9c53-30050192d376")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 				(justify mirror)
