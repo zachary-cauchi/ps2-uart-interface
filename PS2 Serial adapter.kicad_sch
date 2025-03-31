@@ -1163,7 +1163,7 @@
 					)
 				)
 			)
-			(property "Footprint" "Connector_JST:JST_EH_S5B-EH_1x05_P2.50mm_Horizontal"
+			(property "Footprint" "Connector_JST:JST_XH_S5B-XH-A_1x05_P2.50mm_Horizontal"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1324,10 +1324,10 @@
 						(type none)
 					)
 				)
-				(pin power_out line
+				(pin input line
 					(at 5.08 5.08 180)
 					(length 3.81)
-					(name "GND"
+					(name "EE_RXD"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1342,10 +1342,10 @@
 						)
 					)
 				)
-				(pin power_out line
+				(pin output line
 					(at 5.08 2.54 180)
 					(length 3.81)
-					(name "VCC_3V3"
+					(name "EE_TXD"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1378,10 +1378,10 @@
 						)
 					)
 				)
-				(pin output line
+				(pin power_out line
 					(at 5.08 -2.54 180)
 					(length 3.81)
-					(name "EE_TXD"
+					(name "VCC_3V3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1396,10 +1396,10 @@
 						)
 					)
 				)
-				(pin input line
+				(pin power_out line
 					(at 5.08 -5.08 180)
 					(length 3.81)
-					(name "EE_RXD"
+					(name "GND"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1652,16 +1652,6 @@
 	)
 	(wire
 		(pts
-			(xy 85.09 63.5) (xy 88.9 63.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0aa5a3f4-7654-4855-89b1-44b7de03d48f")
-	)
-	(wire
-		(pts
 			(xy 166.37 67.31) (xy 166.37 66.04)
 		)
 		(stroke
@@ -1712,6 +1702,16 @@
 	)
 	(wire
 		(pts
+			(xy 87.63 68.58) (xy 87.63 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2f5af540-c422-4099-92b9-7cbab01a2350")
+	)
+	(wire
+		(pts
 			(xy 130.81 76.2) (xy 125.73 76.2)
 		)
 		(stroke
@@ -1732,33 +1732,13 @@
 	)
 	(wire
 		(pts
-			(xy 85.09 66.04) (xy 88.9 66.04)
+			(xy 85.09 63.5) (xy 88.9 63.5)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "43226317-9df9-48fe-a929-c7ae8b27c3d9")
-	)
-	(wire
-		(pts
-			(xy 87.63 58.42) (xy 87.63 55.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "65514d25-b114-4f6d-a05f-5a2d02dd8aa8")
-	)
-	(wire
-		(pts
-			(xy 85.09 68.58) (xy 88.9 68.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6c138e37-7c7c-4b6d-97df-2d1b283c2ea3")
+		(uuid "631ff05f-169a-4a8f-b946-a50fdc438526")
 	)
 	(wire
 		(pts
@@ -1782,16 +1762,6 @@
 	)
 	(wire
 		(pts
-			(xy 85.09 58.42) (xy 87.63 58.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "85fe8ebf-34f9-459e-958b-b2ca7a0694cd")
-	)
-	(wire
-		(pts
 			(xy 130.81 67.31) (xy 128.27 67.31)
 		)
 		(stroke
@@ -1809,6 +1779,16 @@
 			(type default)
 		)
 		(uuid "8cf0db52-3864-4d61-be3a-753fa68ecbd9")
+	)
+	(wire
+		(pts
+			(xy 85.09 68.58) (xy 87.63 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9303cb2f-ad7d-4655-9bd9-290846e0e70a")
 	)
 	(wire
 		(pts
@@ -1849,16 +1829,6 @@
 			(type default)
 		)
 		(uuid "95d1c72f-2317-4c0b-9c7f-827078e9be9e")
-	)
-	(wire
-		(pts
-			(xy 85.09 60.96) (xy 87.63 60.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9ba337ca-e102-49a6-a1e8-c4416d5c7ea6")
 	)
 	(wire
 		(pts
@@ -1982,6 +1952,16 @@
 	)
 	(wire
 		(pts
+			(xy 85.09 58.42) (xy 88.9 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "df615c1b-b6bb-4b7d-9c0f-6b22b2560f2c")
+	)
+	(wire
+		(pts
 			(xy 166.37 63.5) (xy 166.37 62.23)
 		)
 		(stroke
@@ -2020,8 +2000,28 @@
 		)
 		(uuid "f2d293b7-62aa-4f02-9b5b-e5a588433189")
 	)
+	(wire
+		(pts
+			(xy 85.09 60.96) (xy 88.9 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f5e5cef0-9788-4b00-b3b8-83cbf3ab33a3")
+	)
+	(wire
+		(pts
+			(xy 85.09 66.04) (xy 88.9 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ff73a00a-d4a8-44fe-a786-6e14e96b1c69")
+	)
 	(label "EE_TXD"
-		(at 88.9 66.04 0)
+		(at 88.9 60.96 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2071,7 +2071,7 @@
 		(uuid "6c0a0f0a-9a0e-42b8-ba1f-7a6d678e2655")
 	)
 	(label "EE_RXD"
-		(at 88.9 68.58 0)
+		(at 88.9 58.42 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2233,7 +2233,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 87.63 60.96 270)
+		(at 88.9 66.04 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2242,7 +2242,7 @@
 		(fields_autoplaced yes)
 		(uuid "060be474-d9b3-44a0-abbf-e1e2979867a9")
 		(property "Reference" "#PWR06"
-			(at 83.82 60.96 0)
+			(at 85.09 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2251,7 +2251,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 91.44 60.9599 90)
+			(at 92.71 66.0399 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2260,7 +2260,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 87.63 60.96 0)
+			(at 88.9 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2269,7 +2269,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 87.63 60.96 0)
+			(at 88.9 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2278,7 +2278,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 87.63 60.96 0)
+			(at 88.9 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2820,7 +2820,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 87.63 55.88 180)
+		(at 87.63 69.85 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2829,7 +2829,7 @@
 		(fields_autoplaced yes)
 		(uuid "3cb320ca-f02e-406f-bec9-0fdc18b1bf76")
 		(property "Reference" "#PWR02"
-			(at 87.63 49.53 0)
+			(at 87.63 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2838,7 +2838,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 87.63 50.8 0)
+			(at 87.63 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2846,7 +2846,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 87.63 55.88 0)
+			(at 87.63 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2855,7 +2855,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 87.63 55.88 0)
+			(at 87.63 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2864,7 +2864,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 87.63 55.88 0)
+			(at 87.63 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3585,7 +3585,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_EH_S5B-EH_1x05_P2.50mm_Horizontal"
+		(property "Footprint" "Connector_JST:JST_XH_S5B-XH-A_1x05_P2.50mm_Horizontal"
 			(at 80.01 63.5 0)
 			(effects
 				(font
